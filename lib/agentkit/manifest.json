@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-acquire",
+      "description": "Connect AI agents to Acquire using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-acquire/SKILL.md": "3bfd57c9dbc53a2bfdd4f66861177450b273611e581b9afc4dbe7df503f07e11"
+  }
+}
