@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "4d594ecabb25737707d26fd38d26ad0f2fa70bcad60f0560af8537a9ae961e78",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://developer.acquire.io/rest-apis/introduction"
+  ],
+  "id": "acquire-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Acquire MCP setup and connection checker",
+  "description": "Generate Acquire MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "acquire",
+  "appName": "Acquire",
+  "providerDocs": "https://developer.acquire.io/rest-apis/introduction",
+  "providerWebsite": "https://acquire.io/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://developer.acquire.io/rest-apis/authorization",
+    "tenantRequired": true,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-acquire-mcp"
+}
